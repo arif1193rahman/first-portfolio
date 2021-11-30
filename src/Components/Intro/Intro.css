@@ -42,6 +42,7 @@
 
 .i-title-wrapper {
   height: 100%;
+  /* margin: 10px; */
   animation: move 10s ease-in-out infinite alternate;
 }
 
@@ -74,6 +75,7 @@
   height: 30px;
   position: absolute;
   bottom: 20px;
+  /* margin: 10px; */
 }
 
 .i-img {

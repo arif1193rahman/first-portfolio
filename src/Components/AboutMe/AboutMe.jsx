@@ -1,5 +1,7 @@
 import React from 'react';
 import Award from"../../Images/award.png";
+import CodeMan from"../../Images/code.jpg";
+
 
 import './AboutMe.css';
 
@@ -10,7 +12,7 @@ const AboutMe = () => {
           <div className="about-card bg"></div>
           <div className="about-card">
             <img
-              src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src={CodeMan}
               alt=""
               className="about-img"
             />
@@ -19,16 +21,12 @@ const AboutMe = () => {
         <div className="about-right">
           <h1 className="about-title">About Me</h1>
           <p className="about-sub">
-            It is a long established fact that a reader will be distracted by the
-            readable content.
+            i am done small and big 15 projects last 6 months with Programming Hero
           </p>
           <p className="about-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          Recently I have completed react and node js. I am expertise in Html5, Css3, Javascript, Bootstrap, Jquery, React, Node JS, Express JS, Mongo DB.
           </p>
-          <div className="about-award">
+          {/* <div className="about-award">
             <img src={Award} alt="" className="about-award-img" />
             <div className="about-award-texts">
               <h4 className="about-award-title">International Design Awards 2021</h4>
@@ -37,7 +35,7 @@ const AboutMe = () => {
                 and fugit.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     )

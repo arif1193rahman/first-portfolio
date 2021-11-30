@@ -51,15 +51,15 @@ const ContractMe = () => {
                     <div className="c-info">
                         <div className="c-info-item">
                             <img src={Phone} alt="" className="c-icon" />
-                            +1 1234 556 75
+                            +8801723792475
                         </div>
                         <div className="c-info-item">
                             <img className="c-icon" src={Email} alt="" />
-                            contact@lama.dev
+                            rahman1193arif@gmail.com
                         </div>
                         <div className="c-info-item">
                             <img className="c-icon" src={Address} alt="" />
-                            245 King Street, Touterie Victoria 8520 Australia
+                            8200, Kazi Najrul Islam Sarak, Barishal
                         </div>
                     </div>
                 </div>
